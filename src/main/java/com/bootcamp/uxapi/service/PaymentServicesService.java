@@ -9,5 +9,6 @@ public interface PaymentServicesService {
 
     Flux<Services> findAll();
     Mono<PaymentServices> save();
+    Flux<Services> findAllByChannelCode(String channelCode);
 
 }

@@ -18,4 +18,9 @@ public class PaymentServicesServiceImpl implements PaymentServicesService {
     public Mono<PaymentServices> save() {
         return null;
     }
+
+    @Override
+    public Flux<Services> findAllByChannelCode(String channelCode) {
+        return null;
+    }
 }
